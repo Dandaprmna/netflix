@@ -1,0 +1,266 @@
+.header1{
+    height: 500px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(terbaru\ bg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+}
+nav h1{
+    color: red;
+    cursor: pointer;
+}
+select{
+    background: transparent;
+    border: 1px solid;
+    border-radius: 5px;
+    color: white;
+    padding: 4px;
+}
+option{
+    color: black;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.huruf{
+    margin-top: 15%;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.huruf h1{
+    font-weight: 1000;
+}
+.text-center{
+    display: flex;
+    margin-left: 20% ;
+    margin-right: 20%;
+}
+.input-group{
+    margin-top: 17px;
+    background: transparent;
+    border: 1px solid;
+    border-radius: 5px;
+    color: white;   
+    padding: 7px;
+}
+.button-mulai{
+    background-color: rgb(228, 42, 42);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 0px 30px;
+    margin-top: 16px;
+}
+.button-mulai:hover{
+    background-color: rgb(143, 9, 9);
+}
+.header0{
+    width: 100%;
+    height: 10px;
+    background-color: rgb(59, 57, 57);
+}
+.header3{
+    width: 100%;
+    height: 80vh;
+    background-color: black;
+}
+.text-center0{
+    text-align: center; 
+    margin-top: 10px;
+    color: white;
+}
+.container1{
+    padding: 4% 12%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
+}
+.container2{
+    padding: 6% 12%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+}
+.img-col{
+    flex-wrap: wrap;
+}
+.text-center0 h1{
+    font-weight: 1000;
+}
+
+@media screen and (max-width: 360px){
+    select{
+        width: 30px;
+    }  
+}
+@media screen and (max-width: 600px){
+    .text-center{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 795px){
+    .img-col{
+        width: 300px;
+    }
+    .text-center0 h1{
+        font-size: 20px;
+    }
+    .text-center0 h5{
+        font-size: 15px;
+    }
+    .header3{
+        height: 50%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  
+.background{
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+.bahasa-btn{
+    padding: 7px;
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 6px;
+    margin-right: 200px;
+}
+
+.content{
+    
+    color: red;
+}
+
+input{
+    padding: 5px;
+}
+
+.background-login{
+    position: absolute;
+    width: 100%;
+    z-index: -2;
+    box-shadow: inset 0px 0px 2000px rgba(0, 0, 0, 0.8);
+}
+
+.body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-danger-login{
+    background-color: #ff1717;
+    border: none;
+    color: rgb(24, 21, 21);
+    padding: 10px;
+    border-radius: 5px;
+    width: 90%;
+    transition: all 0,3s;
+}
+
+.btn-danger-login:hover{
+    background-color: #d10c0c;
+}
+
+.form{
+    width: 450px;
+    height: 700px;
+    border-radius: 20px;
+    margin-top: 130px;
+    padding: 50px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+h1{
+    padding-right: 200px;
+} 
+.form input{
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    background: rgb(235, 228, 228);
+    width: 90%;
+}
+
+.btn-secondary{
+    background: rgb(235, 228, 228);
+    border: none;
+    color: rgb(24, 21, 21);
+    padding: 10px;
+    border-radius: 5px;
+    width: 90%;
+    transition: all 0,3s;
+}
+
+.btn-secondary:hover{
+    background-color: #d4c2c2;
+}
+
+.d-flex{
+    margin-right: 210px;
+    gap: 10px;
+}
+
+.teks{
+    margin-right: 50px;
+}
+
+.last{
+    margin-left: 16px;
+}
+
+.form2{
+    width: 450px;
+    height: 700px;
+    background-color: rgb(2, 2, 2);
+}
+
+.bawah{
+    margin-left: 500px;
+    color: white;
+}
+
+.jarak1{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.jarak2{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.hero1{
+    display: flex;
+    justify-content: center;
+}   */
